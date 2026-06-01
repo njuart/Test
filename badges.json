@@ -20,7 +20,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/colored-bluray.png",
       "isEnabled": true,
       "name": "BluRay",
-      "pattern": "(?i)^(?=.*(?:bluray|blu-ray|bdrip))(?!.*remux)",
+      "pattern": "(?i)^(?=.*(?:bluray|blu-ray|bdrip|brrip))(?!.*remux)",
       "tagColor": "#E600E932",
       "tagStyle": "filled and bordered",
       "textColor": "#27C04F",
