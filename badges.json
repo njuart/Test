@@ -144,7 +144,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF858283",
+      "borderColor": "#00d0ff",
       "groupId": "gv",
       "id": "v-hdr10p",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10Plus.png",
@@ -157,7 +157,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF858283",
+      "borderColor": "#00d0ff",
       "groupId": "gv",
       "id": "v-hdr10",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
@@ -170,7 +170,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF858283",
+      "borderColor": "#00d0ff",
       "groupId": "gv",
       "id": "v-hdr",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR.png",
