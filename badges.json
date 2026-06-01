@@ -53,7 +53,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF858283",
+      "borderColor": "#ffd400",
       "groupId": "gr",
       "id": "r-4k",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/4k.png",
@@ -62,7 +62,7 @@
       "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
+      "textColor": "#ffd400",
       "type": "filter"
     },
     {
