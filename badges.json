@@ -27,13 +27,13 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF00FF37",
+      "borderColor": "#FF858283",
       "groupId": "gq",
       "id": "q-w",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-webdl.png",
       "isEnabled": true,
       "name": "WebDL",
-      "pattern": "(?i)\\b(?:web[-_. ]?dl|web|webdl|webrip|web-rip)\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|webrip|web-rip)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
