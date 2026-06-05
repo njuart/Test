@@ -30,7 +30,7 @@
       "borderColor": "#FF00FF37",
       "groupId": "gq",
       "id": "q-w",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-webdl.png.png",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-webdl.png",
       "isEnabled": true,
       "name": "WebDL",
       "pattern": "(?i)\\b(?:web[-_. ]?dl|web|webdl|webrip|web-rip)\\b",
