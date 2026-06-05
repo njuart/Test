@@ -8,9 +8,9 @@
       "isEnabled": true,
       "name": "Remux",
       "pattern": "(?i)\\bremux|bdremux\\b",
-      "tagColor": "#E600E932",
+      "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
-      "textColor": "#27C04F",
+      "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
@@ -21,9 +21,9 @@
       "isEnabled": true,
       "name": "BluRay",
       "pattern": "(?i)^(?=.*(?:bluray|blu-ray|bdrip|brrip))(?!.*remux)",
-      "tagColor": "#E600E932",
+      "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
-      "textColor": "#27C04F",
+      "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
@@ -34,9 +34,9 @@
       "isEnabled": true,
       "name": "WebDL",
       "pattern": "(?i)\\b(?:web[-_. ]?dl|web|webdl|webrip|web-rip)\\b",
-      "tagColor": "#E600E932",
+      "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
-      "textColor": "#27C04F",
+      "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
