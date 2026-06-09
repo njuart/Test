@@ -3,19 +3,6 @@
     {
       "borderColor": "#FF00FF37",
       "groupId": "gq",
-      "id": "q-o",
-      "imageURL": "https://github.com/njuart/Test/blob/70e75b86200faae0547ff83cd561834d9d8664f7/nuvio_logo.png",
-      "isEnabled": true,
-      "name": "Instant",
-      "pattern": "Instant",
-      "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF00FF37",
-      "groupId": "gq",
       "id": "q-r",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-remux.png",
       "isEnabled": true,
