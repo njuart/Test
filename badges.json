@@ -4,7 +4,7 @@
       "borderColor": "#FF00FF37",
       "groupId": "gq",
       "id": "q-z",
-      "imageURL": "https://raw.githubusercontent.com/njuart/Test/blob/20b0786f01649e481982a7d03ddbe1ddb311a071/nuvio_logo.png",
+      "imageURL": "https://raw.githubusercontent.com/njuart/Test/20b0786f01649e481982a7d03ddbe1ddb311a071/nuvio_logo.png",
       "isEnabled": true,
       "name": "Remux",
       "pattern": "(?i)\\bremux|bdremux\\b",
