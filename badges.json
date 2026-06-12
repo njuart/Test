@@ -3,6 +3,19 @@
     {
       "borderColor": "#FF00FF37",
       "groupId": "gq",
+      "id": "q-w",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "Remux",
+      "pattern": "(?i)\\bremux|bdremux\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF00FF37",
+      "groupId": "gq",
       "id": "q-r",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-remux.png",
       "isEnabled": true,
@@ -191,19 +204,6 @@
       "name": "IMAX",
       "pattern": "(?i)^(?=.*\\bIMAX\\b)(?!.*enhanced)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "a-dv",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
-      "isEnabled": true,
-      "name": "DV",
-      "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
-      "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
