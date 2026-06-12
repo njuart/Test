@@ -3,8 +3,8 @@
     {
       "borderColor": "#FF00FF37",
       "groupId": "gq",
-      "id": "q-w",
-      "imageURL": "",
+      "id": "q-z",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-bluray.png",
       "isEnabled": true,
       "name": "Remux",
       "pattern": "(?i)\\bremux|bdremux\\b",
