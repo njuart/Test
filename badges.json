@@ -2,8 +2,8 @@
   "filters": [
     {
       "borderColor": "#7900FF",
-      "groupId": "gq",
-      "id": "q-z",
+      "groupId": "gs",
+      "id": "s-i",
       "imageURL": "https://raw.githubusercontent.com/njuart/Test/20b0786f01649e481982a7d03ddbe1ddb311a071/nuvio_logo.png",
       "isEnabled": true,
       "name": "Instant",
@@ -288,6 +288,13 @@
     }
   ],
   "groups": [
+    {
+      "borderColor": "#FF00FF37",
+      "color": "#27C04F",
+      "id": "gs",
+      "isExpanded": true,
+      "name": "Service"
+    },
     {
       "borderColor": "#FF00FF37",
       "color": "#27C04F",
