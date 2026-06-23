@@ -14,7 +14,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF00FF37",
+      "borderColor": "#FF421F",
       "groupId": "gq",
       "id": "q-r",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-remux.png",
@@ -27,7 +27,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF00FF37",
+      "borderColor": "#FF9500",
       "groupId": "gq",
       "id": "q-b",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-bluray.png",
@@ -40,7 +40,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF00FF37",
+      "borderColor": "#ffd400",
       "groupId": "gq",
       "id": "q-w",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-webdl.png",
@@ -53,7 +53,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#ffd400",
+      "borderColor": "#FF00FF37",
       "groupId": "gr",
       "id": "r-4k",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/4k.png",
