@@ -1,42 +1,5 @@
-[
-  {
-    "description": "2160p - Keep top 5 BluRay REMUX, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay REMUX'), 5, 999)",
-    "enabled": true
-  },
-  {
-    "description": "2160p - Keep top 5 BluRay, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay'), 5, 999)",
-    "enabled": true
-  },
-  {
-    "description": "2160p - Keep top 5 WEB-DL, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'WEB-DL'), 5, 999)",
-    "enabled": true
-  },
-  {
-    "description": "2160p - Keep top 5 WEBRip, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'WEBRip'), 5, 999)",
-    "enabled": true
-  },
-  {
-    "description": "1080p - Keep top 5 BluRay REMUX, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay REMUX'), 5, 999)",
-    "enabled": true
-  },
-  {
-    "description": "1080p - Keep top 5 BluRay, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay'), 5, 999)",
-    "enabled": true
-  },
-  {
-    "description": "1080p - Keep top 5 WEB-DL, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 5, 999)",
-    "enabled": true
-  },
-  {
-    "description": "1080p - Keep top 5 WEBRip, delete from index 5 to 999",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'WEBRip'), 5, 999)",
-    "enabled": true
-  }
-]
+{
+  "id": "resolution-quality-limit",
+  "name": "5 Per Quality Per Resolution",
+  "expression": "merge(slice(quality(resolution(streams, '2160p'), 'Bluray REMUX'), 0, 5), slice(quality(resolution(streams, '2160p'), 'Bluray'), 0, 5), slice(quality(resolution(streams, '2160p'), 'WEB-DL'), 0, 5), slice(quality(resolution(streams, '2160p'), 'WEBRip'), 0, 5), slice(quality(resolution(streams, '1080p'), 'Bluray REMUX'), 0, 5), slice(quality(resolution(streams, '1080p'), 'Bluray'), 0, 5), slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 0, 5), slice(quality(resolution(streams, '1080p'), 'WEBRip'), 0, 5))"
+}
