@@ -1,52 +1,42 @@
 [
   {
-    "description": "2160p - Keep top 4 BluRay REMUX, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay REMUX'), 4)",
+    "description": "2160p - Keep top 5 BluRay REMUX, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay REMUX'), 5)",
     "enabled": true
   },
   {
-    "description": "2160p - Keep top 4 BluRay, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay'), 4)",
+    "description": "2160p - Keep top 5 BluRay, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay'), 5)",
     "enabled": true
   },
   {
-    "description": "2160p - Keep top 4 WEB-DL, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'WEB-DL'), 4)",
+    "description": "2160p - Keep top 5 WEB-DL, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'WEB-DL'), 5)",
     "enabled": true
   },
   {
-    "description": "2160p - Keep top 4 WEBRip, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '2160p'), 'WEBRip'), 4)",
+    "description": "2160p - Keep top 5 WEBRip, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'WEBRip'), 5)",
     "enabled": true
   },
   {
-    "description": "2160p - Hard cap at 12 total streams",
-    "expression": "slice(resolution(streams, '2160p'), 12)",
+    "description": "1080p - Keep top 5 BluRay REMUX, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay REMUX'), 5)",
     "enabled": true
   },
   {
-    "description": "1080p - Keep top 4 BluRay REMUX, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay REMUX'), 4)",
+    "description": "1080p - Keep top 5 BluRay, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay'), 5)",
     "enabled": true
   },
   {
-    "description": "1080p - Keep top 4 BluRay, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay'), 4)",
+    "description": "1080p - Keep top 5 WEB-DL, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 5)",
     "enabled": true
   },
   {
-    "description": "1080p - Keep top 4 WEB-DL, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 4)",
-    "enabled": true
-  },
-  {
-    "description": "1080p - Keep top 4 WEBRip, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'WEBRip'), 4)",
-    "enabled": true
-  },
-  {
-    "description": "1080p - Hard cap at 12 total streams",
-    "expression": "slice(resolution(streams, '1080p'), 12)",
+    "description": "1080p - Keep top 5 WEBRip, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'WEBRip'), 5)",
     "enabled": true
   }
 ]
