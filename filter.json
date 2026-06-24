@@ -1,22 +1,52 @@
 [
   {
-    "description": "2160p: Cap BluRay REMUX, BluRay, WEB-DL, and WEBRip at 4 results each, with a hard ceiling of 12 results total.",
-    "expression": "count(resolution(streams, '2160p')) >= 12 || (resolution(stream, '2160p') && ((quality(stream, 'BluRay REMUX') && count(quality(resolution(streams, '2160p'), 'BluRay REMUX')) >= 4) || (quality(stream, 'BluRay') && count(quality(resolution(streams, '2160p'), 'BluRay')) >= 4) || (quality(stream, 'WEB-DL') && count(quality(resolution(streams, '2160p'), 'WEB-DL')) >= 4) || (quality(stream, 'WEBRip') && count(quality(resolution(streams, '2160p'), 'WEBRip')) >= 4)))",
+    "description": "2160p - Keep top 4 BluRay REMUX, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay REMUX'), 4)",
     "enabled": true
   },
   {
-    "description": "2160p Global Ceiling Drop",
-    "expression": "resolution(stream, '2160p') && count(resolution(streams, '2160p')) >= 12",
+    "description": "2160p - Keep top 4 BluRay, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay'), 4)",
     "enabled": true
   },
   {
-    "description": "1080p: Cap BluRay REMUX, BluRay, WEB-DL, and WEBRip at 4 results each, with a hard ceiling of 12 results total.",
-    "expression": "count(resolution(streams, '1080p')) >= 12 || (resolution(stream, '1080p') && ((quality(stream, 'BluRay REMUX') && count(quality(resolution(streams, '1080p'), 'BluRay REMUX')) >= 4) || (quality(stream, 'BluRay') && count(quality(resolution(streams, '1080p'), 'BluRay')) >= 4) || (quality(stream, 'WEB-DL') && count(quality(resolution(streams, '1080p'), 'WEB-DL')) >= 4) || (quality(stream, 'WEBRip') && count(quality(resolution(streams, '1080p'), 'WEBRip')) >= 4)))",
+    "description": "2160p - Keep top 4 WEB-DL, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'WEB-DL'), 4)",
     "enabled": true
   },
   {
-    "description": "1080p Global Ceiling Drop",
-    "expression": "resolution(stream, '1080p') && count(resolution(streams, '1080p')) >= 12",
+    "description": "2160p - Keep top 4 WEBRip, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'WEBRip'), 4)",
+    "enabled": true
+  },
+  {
+    "description": "2160p - Hard cap at 12 total streams",
+    "expression": "slice(resolution(streams, '2160p'), 12)",
+    "enabled": true
+  },
+  {
+    "description": "1080p - Keep top 4 BluRay REMUX, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay REMUX'), 4)",
+    "enabled": true
+  },
+  {
+    "description": "1080p - Keep top 4 BluRay, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay'), 4)",
+    "enabled": true
+  },
+  {
+    "description": "1080p - Keep top 4 WEB-DL, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 4)",
+    "enabled": true
+  },
+  {
+    "description": "1080p - Keep top 4 WEBRip, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'WEBRip'), 4)",
+    "enabled": true
+  },
+  {
+    "description": "1080p - Hard cap at 12 total streams",
+    "expression": "slice(resolution(streams, '1080p'), 12)",
     "enabled": true
   }
 ]
