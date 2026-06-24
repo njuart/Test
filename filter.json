@@ -1,5 +1,0 @@
-{
-  "id": "resolution-quality-limit",
-  "name": "5 Per Quality Per Resolution",
-  "expression": "merge(slice(quality(resolution(streams, '2160p'), 'Bluray REMUX'), 0, 5), slice(quality(resolution(streams, '2160p'), 'Bluray'), 0, 5), slice(quality(resolution(streams, '2160p'), 'WEB-DL'), 0, 5), slice(quality(resolution(streams, '2160p'), 'WEBRip'), 0, 5), slice(quality(resolution(streams, '1080p'), 'Bluray REMUX'), 0, 5), slice(quality(resolution(streams, '1080p'), 'Bluray'), 0, 5), slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 0, 5), slice(quality(resolution(streams, '1080p'), 'WEBRip'), 0, 5))"
-}
