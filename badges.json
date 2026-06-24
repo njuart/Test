@@ -124,7 +124,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
       "isEnabled": true,
       "name": "HDR10",
-      "pattern": "(?i)^(?=.*(?:hdr[\\s._-]?10(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\\\+|plus|p))|(?=.*(?:2160p|uhd))(?=.*(?:remux|blu[\\s._-]?ray))(?=.*hevc)(?!.*(?:hdr|dv|dolby[\\s._-]?vision|hlg|sdr))))",
+      "pattern": "(?i)^(?=.*(?:hdr[\\s._-]?10(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))|(?:(?=.*(?:2160p|uhd))(?=.*(?:remux|blu[\\s._-]?ray))(?=.*hevc)(?!.*(?:hdr|dv|dolby[\\s._-]?vision|hlg|sdr)))))"
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
