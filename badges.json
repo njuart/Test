@@ -121,6 +121,7 @@
       "borderColor": "#888888",
       "groupId": "gv",
       "id": "v-hdr10-inferred",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
       "isEnabled": true,
       "name": "HDR10?",
       "pattern": "(?i)^(?=.*(?:2160p|uhd))(?=.*(?:remux|blu[\\s._-]?ray))(?=.*hevc)(?!.*(?:hdr|dv|dolby[\\s._-]?vision|hlg|sdr))",
