@@ -1,42 +1,42 @@
 [
   {
-    "description": "4K - Keep top 5 BluRay REMUX, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '4k'), 'BluRay REMUX'), 5)",
+    "description": "2160p - Keep top 5 BluRay REMUX, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay REMUX'), 0, 5)",
     "enabled": true
   },
   {
-    "description": "4K - Keep top 5 BluRay, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '4k'), 'BluRay'), 5)",
+    "description": "2160p - Keep top 5 BluRay, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'BluRay'), 0, 5)",
     "enabled": true
   },
   {
-    "description": "4K - Keep top 5 WEB-DL, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '4k'), 'WEB-DL'), 5)",
+    "description": "2160p - Keep top 5 WEB-DL, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'WEB-DL'), 0, 5)",
     "enabled": true
   },
   {
-    "description": "4K - Keep top 5 WEBRip, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '4k'), 'WEBRip'), 5)",
+    "description": "2160p - Keep top 5 WEBRip, exclude the rest",
+    "expression": "slice(quality(resolution(streams, '2160p'), 'WEBRip'), 0, 5)",
     "enabled": true
   },
   {
     "description": "1080p - Keep top 5 BluRay REMUX, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay REMUX'), 5)",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay REMUX'), 0, 5)",
     "enabled": true
   },
   {
     "description": "1080p - Keep top 5 BluRay, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay'), 5)",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'BluRay'), 0, 5)",
     "enabled": true
   },
   {
     "description": "1080p - Keep top 5 WEB-DL, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 5)",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'WEB-DL'), 0, 5)",
     "enabled": true
   },
   {
     "description": "1080p - Keep top 5 WEBRip, exclude the rest",
-    "expression": "slice(quality(resolution(streams, '1080p'), 'WEBRip'), 5)",
+    "expression": "slice(quality(resolution(streams, '1080p'), 'WEBRip'), 0, 5)",
     "enabled": true
   }
 ]
