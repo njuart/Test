@@ -108,7 +108,7 @@
       "borderColor": "#00d0ff",
       "groupId": "gv",
       "id": "a-dv",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
+      "imageURL": "https://raw.githubusercontent.com/njuart/Test/02d1081ee6b1728fef9e4ee62e8cf8666583a760/DV.png",
       "isEnabled": true,
       "name": "DV",
       "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
