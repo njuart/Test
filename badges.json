@@ -3,7 +3,7 @@
     {
       "id": "s-i",
       "name": "Instant",
-      "pattern": "(?i)^(?=.*(?:torrentio|meteor|comet|storz|stremthru))",
+      "pattern": "(?i)^(?=.*(?:torrentio|mediafusion|meteor|comet|storz|stremthru))",
       "type": "filter",
       "isEnabled": true,
       "imageURL": "https://raw.githubusercontent.com/njuart/Test/20b0786f01649e481982a7d03ddbe1ddb311a071/nuvio_logo.png",
