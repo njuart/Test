@@ -53,6 +53,19 @@
       "groupId": "gq"
     },
     {
+      "id": "q-o",
+      "name": "Other",
+      "pattern": "(?s)^(?=.*\u2063\u200b\u200b\u200b\u200b\u200b\u200d\u200d\u2063)",
+      "type": "filter",
+      "isEnabled": true,
+      "imageURL": "https://raw.githubusercontent.com/njuart/Test/refs/heads/main/other.png",
+      "borderColor": "#FF858283",
+      "tagColor": "#33FFFFFF",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled and bordered",
+      "groupId": "gq"
+    },
+    {
       "id": "r-4k",
       "name": "4K",
       "pattern": "(?s)^(?=.*\u2063\u200b\u200b\u200b\u200d\u200d\u200b\u200b\u2063)",
