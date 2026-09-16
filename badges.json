@@ -55,7 +55,7 @@
     {
       "id": "q-o",
       "name": "Other",
-      "pattern": "(?s)^(?=.*\u2063\u200b\u200b\u200b\u200b\u200b\u200d\u200d\u2063)",
+      "pattern": "(?i)^(?=.*\b(?:WEBRip|HDRip|HDTV)\b)",
       "type": "filter",
       "isEnabled": true,
       "imageURL": "https://raw.githubusercontent.com/njuart/Test/refs/heads/main/other.png",
