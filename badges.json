@@ -189,7 +189,7 @@
       "type": "filter",
       "isEnabled": true,
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/assets/badges/modern/visual/sdr.png",
-      "borderColor": "#FF858283",
+      "borderColor": "#FFFFFF",
       "tagColor": "#33FFFFFF",
       "textColor": "#FFFFFF",
       "tagStyle": "filled and bordered",
