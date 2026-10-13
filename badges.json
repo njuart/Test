@@ -14,7 +14,7 @@
       "groupId": "gs"
     },
     {
-      "id": "s-i",
+      "id": "s-p",
       "name": "PenguPlay",
       "pattern": "(?i)^(?=.*(?:PenguPlay))",
       "type": "filter",
