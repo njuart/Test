@@ -14,6 +14,19 @@
       "groupId": "gs"
     },
     {
+      "id": "s-p",
+      "name": "PenguPlay",
+      "pattern": "(?i)^(?=.*(?:PenguPlay))",
+      "type": "filter",
+      "isEnabled": true,
+      "imageURL": "https://raw.githubusercontent.com/njuart/Test/refs/heads/main/IMG_5214.png",
+      "borderColor": "#FFFFFF",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "groupId": "gs"
+    },
+    {
       "id": "q-r",
       "name": "Remux",
       "pattern": "(?s)^(?=.*\u2063\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u2063)",
