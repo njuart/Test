@@ -20,7 +20,7 @@
       "type": "filter",
       "isEnabled": true,
       "imageURL": "https://raw.githubusercontent.com/njuart/Test/refs/heads/main/penguplay_logo.png",
-      "borderColor": "#FFFFFF",
+      "borderColor": "#a9c2ff",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
