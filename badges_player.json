@@ -85,7 +85,7 @@
       "type": "filter",
       "isEnabled": true,
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/assets/badges/modern/resolution/4k.png",
-      "borderColor": "#FF00FF37",
+      "borderColor": "#FFFFFF",
       "tagColor": "#33FFFFFF",
       "textColor": "#FFFFFF",
       "tagStyle": "filled and bordered",
